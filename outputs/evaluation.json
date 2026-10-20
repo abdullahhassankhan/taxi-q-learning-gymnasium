@@ -1,0 +1,19 @@
+{
+  "configuration": {
+    "episodes": 15000,
+    "alpha": 0.1,
+    "gamma": 0.95,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.01,
+    "epsilon_decay": 0.9995,
+    "seed": 42,
+    "eval_episodes": 100,
+    "output_dir": "outputs",
+    "gif_attempts": 100
+  },
+  "evaluation": {
+    "mean_reward": 8.05,
+    "success_rate": 1.0,
+    "average_steps": 12.95
+  }
+}
